@@ -4,7 +4,9 @@
             height: 90vh;
             background-color:lightskyblue;
             overflow: hidden;
-            margin: 50px auto;
+            /* margin: 50px auto; */
+            top: calc(50% - 45vh);
+            left: calc(50% - 80vh);
             z-index: -2;
         }
 
