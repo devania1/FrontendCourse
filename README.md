@@ -1,2 +1,1 @@
-# intermediate-frontend-course
-intermediate-frontend-course
+Frontend intermediate course by Samuraj Programowania (Udemy)
