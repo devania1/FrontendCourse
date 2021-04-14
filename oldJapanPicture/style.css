@@ -9,8 +9,7 @@
         }
 
         img {
-            position: absolute;
-            display: block;
+            position: absolute; /*display block*/
         }
 
         img:nth-child(n+1) {
