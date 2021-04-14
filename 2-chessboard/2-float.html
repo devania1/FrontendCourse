@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chessboard float</title>
+    <style>
+
+        h1 {  
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .board {
+            width: 30vw;
+            margin: 10vh auto;
+            border: 10px solid black;
+            /* overflow: hidden; */
+            /* height: 30vw; */
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        span {
+            float: left;
+            width: 15vw;
+            height: 15vw;
+        }
+
+        span:nth-child(1), span:nth-child(4) {
+            background-color: red;
+        } 
+
+    </style>
+</head>
+
+
+<body>
+    <div class="board clearfix">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <!--Pseudoelement - clearfix::after - koniec floatów -->
+    </div>
+    <h1>Chessboard float</h1>
+</body>
+
+</html>
