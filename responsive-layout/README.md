@@ -1,2 +1,0 @@
-# responsive-layout
-responsive-layout
