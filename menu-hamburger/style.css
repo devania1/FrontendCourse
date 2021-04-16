@@ -1,0 +1,40 @@
+body {
+    min-height: 200vh;
+}
+
+.wrapper {
+    margin: 10px 70px;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.burger {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 50px;
+    z-index: 1; 
+    /* z-index - im wyższa liczba tym wyżej jest warstwa */
+}
+
+i.off {
+    display: none;
+}
+
+i.fa-angle-up {
+    color: white;
+}
+
+nav {
+    position: fixed;
+    background-color: #bbbbbb;
+    height: 200px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: .3s;
+}
+
+nav.off {
+    top: -300px;
+}
