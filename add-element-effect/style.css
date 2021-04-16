@@ -1,0 +1,36 @@
+body {
+    margin: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    padding: 5px 10px; 
+    margin-bottom: 30px;
+    margin-right: 20px;;
+    text-transform: uppercase;   
+}
+
+.box {
+    float: left;
+    animation: create 0.5s linear both;
+    background-color: cadetblue;
+    border: 2px solid gray;
+    height: 100px;
+    width: 100px;
+}
+
+@keyframes create {
+    0% {
+        height: 0;
+        width: 0;
+        transform: rotate(0);
+    }
+    100% {
+        height: 100px;
+        width: 100px;
+        transform: rotate(360deg);
+    }
+}
