@@ -13,12 +13,12 @@ Frontend intermediate course by Samuraj Programowania (Udemy)
  ### positioning in CSS: 
      picture, chessboard (inline-block, float, absolute),
  ### flexbox: 
-     simple calculator, modern calculator, card-task,
+     simple calculator, modern calculator, flexbox-card,
  ### media-queries:
-     responsive galery, layout, menu,
+     responsive galery/layout/menu,
  ### jQuery: 
-     change text/background color, add element, hamburger-menu,
+     add element/effects, hamburger-menu,
  ### JavaScript: 
-     add element and effects, drop-down menu, flyout menu, 
+     add element/effects, drop-down menu, flyout menu, 
  ### Sass: 
      responsive menu with Sass (sass, scss).
