@@ -1,5 +1,21 @@
-# Frontend intermediate course
-Frontend intermediate course by Samuraj Programowania (Udemy)
+## General info
+
+Resository contains tasks from Front-end intermediate course.
+The Motivation to do the project was learn CSS positioning/flexbox concepts.
+
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Content](#content)
+* [Status](#status)
+* [Inspiration](#inspiration)
+
+## Screenshots
+![Example screenshot](./screenshots/screenshot1.png)
+<!-- ![Example screenshot](./src/assets/images/favnote2.png)
+![Example screenshot](./src/assets/images/favnote3.png)
+![Example screenshot](./src/assets/images/favnote4.png) -->
 
 ## Technologies:
  * HTML5
@@ -9,7 +25,7 @@ Frontend intermediate course by Samuraj Programowania (Udemy)
  * Flexbox
  * Sass
 
-## Tasks:
+## Content:
  ### positioning in CSS: 
      picture, chessboard (inline-block, float, absolute)
  ### flexbox: 
@@ -22,3 +38,13 @@ Frontend intermediate course by Samuraj Programowania (Udemy)
      add element/effects, drop-down menu, flyout menu 
  ### Sass: 
      responsive menu with Sass (SASS, SCSS)
+
+
+## Setup
+link to netlify
+
+## Status
+Project is: _in progress_
+
+## Inspiration
+Tasks are inspired by the course "Frontend intermediate" by Samuraj Programowania (Udemy).
