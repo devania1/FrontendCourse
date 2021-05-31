@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+li {
+    flex-basis: 20%;
+}
+
+a {
+    display: block;
+    background-color: #444444;
+    color: white;
+    font-family: 'open sans', sans-serif;
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    background-color: black;
+}
+
+@media (min-width: 1025px) {
+    ul {
+        flex-direction: row;    
+    }
+
+    a {
+        margin: 15px;
+    }
+}
