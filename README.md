@@ -44,7 +44,7 @@ The Motivation to do the project was learn CSS positioning/flexbox concepts.
 link to netlify
 
 ## Status
-Project is: _in progress_
+Project is: _completed_
 
 ## Inspiration
 Tasks are inspired by the course "Frontend intermediate" by Samuraj Programowania (Udemy).
