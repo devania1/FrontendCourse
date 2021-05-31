@@ -1,0 +1,32 @@
+body {
+    min-height: 150vh;
+}
+
+nav {
+    position: fixed;
+    background-color: teal;
+    bottom: -300px;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    transition: .3s;
+}
+
+nav.on {
+    bottom: 0;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+    font-size: 30px;
+    margin-bottom: 20px;
+    transition: .5s linear;
+}
+
+.arrow.on {
+    bottom: 300px;
+    transform: rotate(180deg);
+}

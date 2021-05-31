@@ -1,0 +1,17 @@
+button {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.square {
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    margin: 100px auto;
+    /* transform: rotate(30deg); */
+}
+
+/* dodać klasę animation */
